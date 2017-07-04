@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7B7CED48-1C0F-46CC-9174-FEF6C9D04C28}</ProjectGuid>
+    <ProjectGuid>{6FC9F7C1-9055-4E4D-8795-1FE651044B49}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01.DefineBlankAccountClass</RootNamespace>
-    <AssemblyName>01.DefineBlankAccountClass</AssemblyName>
+    <RootNamespace>_08.RawData</RootNamespace>
+    <AssemblyName>08.RawData</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DefineClass.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="Cargo.cs" />
+    <Compile Include="Engine.cs" />
+    <Compile Include="Startup.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tire.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
