@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 public class Box
 {
@@ -22,7 +19,7 @@ public class Box
         {
             return this.length;
         }
-        set
+        private set
         {
             if (value <= 0)
             {
@@ -40,7 +37,7 @@ public class Box
         {
             return this.width;
         }
-        set
+        private set
         {
             if (value <= 0)
             {
@@ -51,14 +48,13 @@ public class Box
         }
     }
 
-
     public double Height
     {
         get
         {
             return this.height;
         }
-        set
+       private set
         {
             if (value <= 0)
             {
